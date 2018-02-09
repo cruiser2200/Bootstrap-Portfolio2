@@ -1,0 +1,173 @@
+body {
+    background-color: #dddddd;
+    margin: 0px;
+    border: 0px solid white;
+    padding: 0px;
+    width: 100%;
+}
+
+a, a * {
+    color: #777777;
+}
+
+p {
+    line-height: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #777777;
+}
+
+heading, h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+hr.style1 {
+    border-top: 1px solid #8c8b8b;
+	/* border-bottom: 1px solid #fff; */
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 26px;
+    /* padding: 10px; */
+}
+
+h4 {
+    color: #666666;
+    font-size: 10px;
+    padding: 10px;
+}
+
+p {
+   padding: 5px;
+}
+
+#topNav {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    align-content: center;
+    text-anchor: middle;
+    line-break: 90px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #777777;
+}
+
+#nameContainer {
+    align-content: center;
+}
+
+#rightMenu {
+    align-content: center;
+}
+
+#navName {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    height: 89px;
+    line-height: 90px;
+    text-anchor: middle;
+    line-break: 90px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#name {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* #aboutMe {
+    line-height: 30px;
+    align-content: center;
+    padding: 10px;
+} */
+
+
+
+#profilePic {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#bio {
+    background-color: #ffffff;
+    /* margin-top: -10px; */
+    padding-bottom: 40px;
+}
+
+#bioContainer {
+    background-color: #ffffff;
+    border: 5px solid #dddddd;
+    padding-bottom: 80px;
+}
+
+#connectContainer {
+    background-color: #ffffff;
+    border: 5px solid #dddddd;
+}
+
+#connectWithMe {
+    background-color: #ffffff;
+    /* margin-top: 10px; */
+    /* border-top: 20px solid #dddddd; */
+    border: 5px solid #dddddd;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+
+}
+
+#connect {
+    padding-top: 0px;
+}
+
+
+#footer1 {
+    text-align: center
+}
+
+.form-group {
+    padding: 10px;
+}
+
+div.galleryItem {
+    position: relative;
+    /* margin: 5px; */
+    border: 1px solid #ffffff;
+    float: left;
+    width: 100%;
+}
+
+div.galleryItem:hover {
+    border: 1px solid #777;
+}
+
+div.galleryItem img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    /* padding: 15px; */
+    /* text-align: center; */
+    width: 100%;
+    line-height: 70px;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #dddddd;
+    position: absolute;
+    z-index: +1;
+    bottom: 12px;
+    left: 0px;
+}
+
+#galleryContainer {
+    padding-bottom: 80px;
+}
